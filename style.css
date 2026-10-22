@@ -1,0 +1,29 @@
+body {
+    background-color: #ebe9e9;
+}
+
+h1{
+    font-family: 'Monserrat', sans-serif;
+    font-size: 30px;
+}
+
+i{
+    color: #f8f6f6;
+    background-color: #39dff5;
+}
+
+#main-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container {
+   max-width: 300px;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}

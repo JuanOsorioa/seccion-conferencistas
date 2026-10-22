@@ -2,6 +2,19 @@ body {
     background-color: #ebe9e9;
 }
 
+marquee{
+    background-color: #eb0f0f;
+    color: #030303;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.bi-person-fill{
+    color: white;
+    background-color: #eb0f0f;
+}
+
 h1{
     font-family: 'Monserrat', sans-serif;
     font-size: 30px;
@@ -25,5 +38,9 @@ i{
 
 img{
     width: 100%;
-    height: auto;
+    height: 300px;
+    object-fit: cover;
+    clip-path: polygon(
+        50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%
+    );
 }
